@@ -1,48 +1,58 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="../bootstrap5.3.0/css/bootstrap.min.css">
-        <link rel="icon" href="../Imagenes/logo.png">
-        <Title>ShoesOnlineGt</Title>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
 
-    <body style="background-color: black;">
-        
-        <script src="../bootstrap5.3.0/js/bootstrap.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap5.3.0/css/bootstrap.min.css">
+    <link rel="icon" href="../Imagenes/logo.png">
+    <Title>ShoesOnlineGt</Title>
+</head>
 
-        <div class="format">
-            <div class="marge">
-
-                <div class="logo">
-                    <img src="../Imagenes/logo1.png"> 
-                </div>
-
-                <div class="nombreTienda">
-                    <font color="white">
-                        <h1 class="display-6">ShoesOnlineGt</h1>
-                    </font>
+<body class="bg-dark">
+    <header>
+        <nav class="navbar navbar-light bg-secondary">
+            <a href="#" class="navbar-brand text-white border-rounded">
+                <img src="../Imagenes/logo1.png" class="ml-2 rounded-circle p-2 bg-white mt" width="50" alt="" />
+                ShoesOnlineGt
+            </a>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 mt-2">
+                <div class="card  mb-3">
+                    <img src="../Imagenes/children.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase">Zapatos para niños</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <a href="catalogoChildren.html" class="btn btn-success w-100">
+                            <i class="fas fa-arrow-right"></i> Ver Catalogo
+                        </a>
+                    </div>
                 </div>
             </div>
-
-            <div class="inicio">
-                <div class="shoesChildren">
-                    <a href="catalogoChildren.html"><img src="../Imagenes/children.jpg" class="rounded mx-auto d-block" alt="..."></a>     
-                </div>
-                
-                    </br>
-
-                <div class="shoesAdult">
-                    <a href="catalogoAdultos.html"><img src="../Imagenes/adultos.jpg" class="rounded mx-auto d-block" alt="..."></a>
-                </div>
-
-            </div>
-
-            <div class="encabezado">
-                <div class="informacion">
-                    <font color="white">
-                        <p>Derechos de copyright 2023</p>
-                    </font>
+            <div class="col-12 col-md-6 mt-2 ">
+                <div class="card  mb-3">
+                    <img src="../Imagenes/adultos.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase">Zapatos para Adultos</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <a href="catalogoAdultos.html" class="btn btn-success w-100">
+                            <i class="fas fa-arrow-right"></i> Ver Catalogo
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </body>
+    </main>
+    <footer class="encabezado text-white d-block bg-secondary w-100 p-0" style="position:fixed; bottom:0; left: 0; text-align: right;">
+        <p class="p-0 m-0 pr-4">© Derechos de copyright 2023</p>
+    </footer>
+    <script src="../bootstrap5.3.0/js/bootstrap.min.js"></script>    <script src="https://kit.fontawesome.com/ece2b7997c.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
