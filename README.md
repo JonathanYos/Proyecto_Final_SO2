@@ -5,7 +5,7 @@
 
 - **1290-18-8726** ALVARO ALEJANDRO JERONIMO SOLIS 
 - **1290-19-8655**  HUGO ALEJANDRO FLORES MORALES 
-- **1290-19-21114** JONATHAN ESTUARDO YOS ESCOBAR 
+- **1290-19-22312** JONATHAN ESTUARDO YOS ESCOBAR 
 
 ## 📙Tema a escoger
 
@@ -14,7 +14,6 @@ zapatos para niños y adultos en donde se puede escoger el estilo, talla, cantid
 realizar un pedido.
 
 ## ⚒️Especificaciones
-
 ### IDE
 - Visual Studio Code
 ### Base de datos
