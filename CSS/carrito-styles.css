@@ -1,0 +1,100 @@
+/* Estilos para el carrito de compra */
+body {
+  margin: 0%;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: rgba(4, 163, 184, 0.8);
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: rgba(4, 163, 184, 0.8);
+    padding: 10px;
+  }
+  
+  nav a {
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+
+
+  table th:not(:last-child),
+table td:not(:last-child) {
+  border-right: 1px solid #ccc;
+}
+  
+  #total-container {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: rgba(4, 163, 184, 0.8);
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+  }
+  
+  /* Estilos para el botón del carrito de compras */
+#carrito-button {
+  position: fixed;
+  top: 50px;
+  right: 40px;
+  z-index: 100;
+}
+
+#carrito-button img {
+  width: 35px;
+  height: 30px;
+}
+
+#carrito-button::after {
+  /* Estilos para el indicador de cantidad (opcional) */
+  content: "";
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

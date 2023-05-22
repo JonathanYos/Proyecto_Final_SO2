@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>ShoesOnlineGt - Carrito de Compra</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/carrito-styles.css">
+    <link rel="stylesheet" href="../bootstrap5.3.0/css/bootstrap.min.css">
+  </head>
+
+  <body>
+    <script src="../bootstrap5.3.0/js/bootstrap.min.js"></script>
+
+    <header>
+    <img src="../Imagenes/logo1.png" class="ml-2 rounded-circle p-2 bg-white mt" width="50" alt="" />
+      <a href="carrito.html" id="carrito-button">
+        <img src="../Imagenes/carritoIcono.png" alt="Carrito de Compras">
+      </a>
+    </header>
+    
+    <nav align="center">
+      <a href="index.html">Inicio</a>
+      <a href="catalogoAdultos.html">Zapatos para Adulto</a>
+      <a href="catalogoNinos.html">Zapatos para Niño</a>
+    </nav>
+  
+    <section>
+      <h2>Carrito de Compra</h2>
+      
+      <table>
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Precio Unitario</th>
+            <th>Subtotal</th>
+          </tr>
+        </thead>
+        <tbody id="carrito-body">
+          <!-- Aquí se mostrarán los productos del carrito -->
+        </tbody>
+      </table>
+
+      <div id="total-container">
+        <span>Total:</span>
+        <span id="total">Q. </span>
+      </div>
+      
+      <div class="boton" align="center" >
+        <button onclick="realizarPedido()">Realizar Pedido</button>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 ShoesOnlineGt. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="../JS/carrito.js"></script>
+  </body>
+</html>
